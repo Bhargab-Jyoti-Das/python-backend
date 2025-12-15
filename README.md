@@ -18,8 +18,10 @@ Run tests through Docker Compose
 
 ```
 docker-compose run -rm app sh -c "python manage.py test
-``
+```
+
 ## steps 
+
 ```
 docker-compose build
 docker-compose run --rm app sh -c "flake8"
