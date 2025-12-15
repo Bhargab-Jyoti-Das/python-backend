@@ -19,3 +19,10 @@ Run tests through Docker Compose
 ```
 docker-compose run -rm app sh -c "python manage.py test
 ``
+## steps 
+```
+docker-compose build
+docker-compose run --rm app sh -c "flake8"
+ddocker-compose run --rm app sh -c "django-admin startproject app ."
+docker compose up
+```
