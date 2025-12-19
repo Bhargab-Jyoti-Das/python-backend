@@ -28,3 +28,9 @@ docker-compose run --rm app sh -c "flake8"
 ddocker-compose run --rm app sh -c "django-admin startproject app ."
 docker compose up
 ```
+
+## core app addition
+
+```
+docker compose run --rm app sh -c " python manage.py startapp core"
+```
